@@ -13,7 +13,7 @@ export type RouterType = {
 const routes: RouterType[] = [
   {
     path: '/',
-    element: Layout(),
+    element: <Layout />,
   }
 ]
 
