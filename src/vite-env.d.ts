@@ -83,3 +83,5 @@ declare module '*.module.less' {
 }
 
 declare module 'react-beautiful-dnd'
+
+declare module '@/components/love'

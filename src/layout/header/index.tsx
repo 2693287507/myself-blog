@@ -4,7 +4,7 @@ import s from './index.module.less'
 
 type HeaderActions = {
   value: string;
-  label: string
+  label: string;
 }
 
 const Header:FC = () => {
