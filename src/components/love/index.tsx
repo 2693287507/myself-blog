@@ -1,7 +1,7 @@
 import { FC, useEffect, useRef } from 'react'
 import s from './index.module.less'
 import Point from './point'
-import ParticlePool from './ParticlePool'
+import ParticlePool from './particlePool'
 import settings from './settings'
 
 const Love:FC = () => {

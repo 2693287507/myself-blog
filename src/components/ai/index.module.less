@@ -1,0 +1,53 @@
+ .deepseek-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.chat-history {
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+.user { background: #e3f2fd; }
+.assistant { background: #f5f5f5; }
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+textarea {
+  flex: 1;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+.error-message {
+  color: #dc3545;
+  margin: 10px 0;
+  padding: 10px;
+  background: #f8d7da;
+  border-radius: 4px;
+}

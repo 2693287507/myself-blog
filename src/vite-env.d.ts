@@ -84,4 +84,8 @@ declare module '*.module.less' {
 
 declare module 'react-beautiful-dnd'
 
+declare module '@/pages/home'
+declare module '@/pages/personal'
 declare module '@/components/love'
+declare module '@/components/three'
+declare module '@/components/ai'
